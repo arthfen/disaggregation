@@ -1,0 +1,13 @@
+This is the README file for the Supplementary Material of "A scalable method for the estimation of spatial downscaling models"
+
+1) To reproduce the results, you must first run the script '0simulates.R', which will generate the simulated response variable.
+Before running, make sure that your R installation has all the necessary packages installed.
+
+2) Then, you must run the script '1parallel_ML.R', which contains the estimation method.
+Before running, make sure to adjust the number of cores. The jobfile .sh is also provided.
+
+3) The script '2predict_vcov.R' is optional. It generates the prediction rasters and the curves extracted by the model.
+
+In case of any questions/suggestions, feel free to contact the author: arthfen .at. gmail dot com
+
+
